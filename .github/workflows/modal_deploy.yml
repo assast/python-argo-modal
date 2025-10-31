@@ -1,6 +1,10 @@
 name: Deploy to Modal
 
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'modal_app.py'
   workflow_dispatch:
   #schedule:
   #  - cron: '0 18 * * *'
