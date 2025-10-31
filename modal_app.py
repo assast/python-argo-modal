@@ -6,7 +6,7 @@ import base64
 import subprocess
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Response
-
+import requests
 import modal
 
 # --- 1. 用户可配置常量 ---
