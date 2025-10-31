@@ -268,7 +268,7 @@ uuid: {UUID}"""
     # subprocess.run("pkill -f npm || true", shell=True)
     # subprocess.run("pkill -f php || true", shell=True)
 
-# --- 6. FastAPI Web 应用定义 ---
+# --- 6. FastAPI Web 应用定义  ---
 fastapi_app = FastAPI(lifespan=lifespan)
 
 @app.function(
